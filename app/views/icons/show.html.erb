@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Content:</b>
+  <%= @icon.content %>
+</p>
+
+<p>
+  <b>User:</b>
+  <%= @icon.user_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_icon_path(@icon) %> |
+<%= link_to 'Back', icons_path %>
